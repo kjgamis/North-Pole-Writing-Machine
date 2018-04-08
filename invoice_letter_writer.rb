@@ -12,6 +12,12 @@ kids_data.each_line do |kid|
   street_name   = kid_data_array[9]
   street_suffix = kid_data_array[10]
   postal_code   = kid_data_array[11]
+  toy_1         = kid_data_array[2]
+  toy_2         = kid_data_array[3]
+  toy_3         = kid_data_array[4]
+  toy_4         = kid_data_array[5]
+  toy_5         = kid_data_array[6]
+  toy_6         = kid_data_array[7]
 
 
  filename    = 'letters/invoices/' + name + '.txt'
